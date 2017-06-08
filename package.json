@@ -1,0 +1,20 @@
+{
+  "name": "google-play-api-proxy",
+  "version": "1.0.0",
+  "description": "Express server to proxy calls to Google Play store",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Viktor Adam <rycus86@gmail.com> (https://github.com/rycus86)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.15.3",
+    "gpapi": "^4.3.0",
+    "async": "^2.4.1",
+    "debug": "^2.6.8"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
