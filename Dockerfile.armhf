@@ -2,7 +2,7 @@ FROM hypriot/rpi-alpine
 
 LABEL maintainer "Viktor Adam <rycus86@gmail.com>"
 
-RUN apk update && apk add nodejs-current nodejs-current-npm && rm -rf /var/cache/apk/*
+RUN apk update && apk add nodejs-current && rm -rf /var/cache/apk/*
 
 WORKDIR /app
 
